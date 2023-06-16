@@ -1,40 +1,10 @@
 import React, { useState } from "react";
-import {
-    Box,
-    Drawer,
-    Sider as DefaultSider,
-    ListItemButton,
-    ListItemIcon,
-    ListItemText,
-    Collapse,
-    Tooltip,
-    Button,
-    IconButton,
-    MuiList,
-    margin,
-    width,
-} from "@pankod/refine-mui";
-import {
-    ListOutlined,
-    Logout,
-    ExpandLess,
-    ExpandMore,
-    ChevronLeft,
-    ChevronRight,
-    MenuRounded,
-    Dashboard,
-} from "@mui/icons-material";
-import {
-    CanAccess,
-    ITreeMenu,
-    useIsExistAuthentication,
-    useLogout,
-    useTitle,
-    useTranslate,
-    useRouterContext,
-    useMenu,
-    useRefineContext,
-} from "@pankod/refine-core";
+import { Box, Drawer, Sider as DefaultSider, ListItemButton, ListItemIcon, ListItemText, 
+Collapse, Tooltip, Button, IconButton, MuiList, margin, width} from "@pankod/refine-mui";
+import { ListOutlined, Logout, ExpandLess, ExpandMore, ChevronLeft, 
+    ChevronRight, MenuRounded, Dashboard} from "@mui/icons-material";
+import { CanAccess, ITreeMenu, useIsExistAuthentication, useLogout, useTitle, 
+    useTranslate, useRouterContext, useMenu, useRefineContext} from "@pankod/refine-core";
 
 import { Title as DefaultTitle } from "../title";
 
@@ -450,7 +420,7 @@ export const Sider: typeof DefaultSider = ({ render }) => {
                     sx={{
                         display: { xs: "block", md: "none" },
                         position: "fixed",
-                        top: "64px",
+                        top: "7px",
                         left: "0px",
                         borderRadius: "0 6px 6px 0",
                         bgcolor: "#475be8",
